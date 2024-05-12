@@ -37,19 +37,26 @@ input {
   margin: 17px;
   text-align: center;
 }
-.thongtin a:active {
-  color: blue;
-}
-.dangnhap a {
+/* .dangnhap a {
   font-size: 20px;
   color: #ffffff;
   padding: 0 27px 0 0;
   float: right;
   text-decoration: none;
+} */
+.dangnhap p {
+  font-size: 30px;
+  border: #ffffff solid 1px;
+  color: #ffffff;
+  /* padding: 0 30px 0 0; */
+  margin-right: 20px;
+  border-radius: 10px;
+  float: right;
+  text-decoration: none;
 }
-.dangnhap a:active {
-  color: blue;
-}
+/* .dangnhap a:active {
+  color: linear-gradient(to right, #fc466b, #3f5efb);
+} */
 header div {
   display: inline;
 }
@@ -78,7 +85,7 @@ nav h1 {
   margin-top: 110px;
 }
 .taixuong:hover {
-  background-color: rgb(65, 65, 77);
+  background: linear-gradient(to right, #fc466b, #3f5efb);
 }
 .taixuong:active {
   background-color: rgb(0, 0, 255);
@@ -155,12 +162,15 @@ main a i {
 }
 main .p2 .thungay {
   margin-left: 100px;
-  background-color: #ff0f7b;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
   border-radius: 10px;
   width: 180px;
   height: 50px;
   margin-top: 85px;
   margin-left: 0px;
+}
+main .p2 .thungay:hover {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
 }
 main .p2 .text1 {
   margin-top: 170px;
